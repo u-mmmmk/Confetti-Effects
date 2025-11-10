@@ -22,7 +22,7 @@ def matured_confetti(rev):
     var script = document.createElement('script');
     script.src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.4/dist/confetti.browser.min.js"
     script.onload = function() {
-    confetti({particelCount:30, startVelocity:35, ticks:150});
+    confetti({particleCount:30, startVelocity:35, ticks:150});
     };
     document.body.appendChild(script);
     """
